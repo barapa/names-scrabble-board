@@ -1,0 +1,15 @@
+[project]
+name = "crossword"
+version = "0.1.0"
+description = "Scrabble-style crossword generator and renderer"
+readme = "README.md"
+authors = [
+    { name = "Benjamin Rapaport", email = "benjamin.rapaport@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "svgwrite>=1.4.3",
+]
+
+[tool.uv]
+package = false
